@@ -1,0 +1,574 @@
+@font-face{
+		src :url("fonts/MONSTER OF FANTASY.otf");
+		font-family:"MONSTER OF FANTASY";
+}
+/* --------------------------------------------------------------------- */
+body{
+                margin: 0;
+}
+/* --------------------------------------------------------------------- */
+header{
+                display: flex;
+                width: 100%;
+                height: 140px;
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+                border-bottom-color: gray;
+}
+/* --------------------------------------------------------------------- */
+nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;  
+                width: 45%;
+}
+/* --------------------------------------------------------------------- */
+.icono{
+                width: auto;
+                height: auto;
+                margin-top: -2%;
+}
+/* --------------------------------------------------------------------- */
+.icono img{
+                width: 30.8%;
+                height: auto;
+}
+/* --------------------------------------------------------------------- */
+.a:link, .a:visited{
+                background-color: white;
+                border-radius: 15px;
+                width: 70%;
+                height: 80px;
+                text-decoration: none;
+                font-size: 22px;
+                color: rgb(158, 0, 0);
+                margin-left: 27px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+}
+/* --------------------------------------------------------------------- */
+.a:hover{
+                transition: all 1.5s;
+                background-color: rgb(216, 215, 215);
+}
+/* --------------------------------------------------------------------- */
+footer{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                height: 140px;
+                border-top-style: solid;
+                border-top-color: gray;
+                border-top-width: 1px;
+                align-content: space-around;
+                font-family: Verdana;
+}
+/* --------------------------------------------------------------------- */
+.info1{
+                margin-top: 12%;
+                text-align: justify;
+                line-height: 16px;
+				width: 15%;
+				height: auto;
+}
+/* --------------------------------------------------------------------- */
+.info2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 30%;
+}
+/* --------------------------------------------------------------------- */
+.info2 img{
+                width: 55%;
+                height: auto;
+}
+/* --------------------------------------------------------------------- */
+.info2 p{
+				text-align: center;
+                margin-top: -12%;
+}
+/* --------------------------------------------------------------------- */
+.info3{
+                width: 15%;
+                height: auto;
+                text-align: justify;
+                line-height: 16px;
+                margin-top: 12%;
+				padding-bottom: 1%;
+}
+/* --------------------------------------------------------------------- */
+.info3 img{
+                width: 10%;
+                height: auto;
+}
+/* --------------------------------------------------------------------- */
+.fondo{
+                width: 100%;
+                height: 50%;
+}
+/* --------------------------------------------------------------------- */
+.fondo img{
+                width: 100%;
+                height: 50%;
+}
+/* --------------------------------------------------------------------- */
+.informacion{
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                height: auto;
+                margin-left: 4%;
+                margin-right: 4%;
+                margin-top: 1.5%;
+                margin-bottom: 1%;
+}
+/* --------------------------------------------------------------------- */
+.informacion h2{
+                font-family: "MONSTER OF FANTASY";
+                font-size: 36px;
+                margin: 0;
+                margin-top: 1%;
+                text-align: center;
+}
+/* --------------------------------------------------------------------- */
+.informacion p{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 17px;
+                text-align: justify;
+                line-height: 28px;
+}
+/* --------------------------------------------------------------------- */
+.embed{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 3%;
+}
+/* --------------------------------------------------------------------- */
+.frase{
+				margin-top: -2%;
+				margin-bottom: 4.5%;
+}
+/* --------------------------------------------------------------------- */
+.frase h1{
+				font-family: "MONSTER OF FANTASY";
+				font-size: 36px;
+				color: red;
+				text-shadow: 2px 2px 8px gray;
+				text-align: center;
+}
+/* --------------------------------------------------------------------- */
+.box{
+				display: flex;
+				width: 60%;
+				height: auto;
+				margin: auto;
+}
+/* --------------------------------------------------------------------- */
+.target{
+				width: 250px;
+				height: auto;
+				border-color: black;
+				border-style: solid;
+				border-width: 1px;
+				border-radius: 16px;
+				margin: auto;
+				background-color: white;
+}
+/* --------------------------------------------------------------------- */
+.target img{
+				width: 250px;	
+				height: auto;
+				border-top-right-radius: 15px;
+				border-top-left-radius: 15px;
+				border-bottom-style: solid;
+				border-width: 1px;
+}
+/* --------------------------------------------------------------------- */
+.target h2{
+				font-family: "Verdana";
+				font-size: 24px;
+				text-align: center;
+				color: red;
+}
+/* --------------------------------------------------------------------- */
+main{
+                margin-top: 4%;
+                margin-bottom: 4%;
+}
+/* --------------------------------------------------------------------- */
+.target a:link, a:visited, a:hover{
+                text-decoration: none;
+                color: inherit;
+}
+/* --------------------------------------------------------------------- */
+.lista{
+				display: flex;
+				width: 31%;
+				height: auto;
+				margin-top: -17%;
+				margin-left: 60%;
+}
+/* --------------------------------------------------------------------- */
+.lista li{
+					font-family:"Verdana";
+					font-size: 22px;
+					margin-bottom: 2%;
+}
+/* --------------------------------------------------------------------- */
+.texto1{
+					display: flex;
+					flex-direction: row-reverse;
+					margin-top: -30%;
+					margin-bottom: 20%;
+					width: 30%;
+					height: auto;
+					margin-left: 60%;
+}
+/* --------------------------------------------------------------------- */
+.texto1 h2{
+				font-family: "MONSTER OF FANTASY";
+				font-size: 30px;
+				color: red;
+				text-shadow: 2px 2px 8px gray;
+				text-align: center;
+}
+/* --------------------------------------------------------------------- */
+.texto2{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				align-content: center;
+				margin-bottom: -3%; 
+				margin-top: 1%; 
+}
+/* --------------------------------------------------------------------- */
+.texto2 h2{
+				font-family: "MONSTER OF FANTASY";
+				font-size: 25px;
+				color: red;
+				text-shadow: 2px 2px 8px gray;
+				text-align: center;
+}
+/* --------------------------------------------------------------------- */
+iframe{
+				width: 35%;
+				height: 400px;
+				margin-left: 6%;
+				margin-bottom: 6%;
+}
+/* --------------------------------------------------------------------- */
+.limonagrio{
+				display: flex;
+				width: 20%;
+				height: 400px;
+				margin-top: 2%;
+				margin-left: 6%;
+}
+/* --------------------------------------------------------------------- */
+.limonagrio img{
+				width: 100%;
+				height: auto;
+}
+/* --------------------------------------------------------------------- */
+.info{
+				width: 49%;
+				height: auto;
+				margin-left: 45%;
+				margin-bottom: 10%;
+}
+/* --------------------------------------------------------------------- */
+.info ul{
+				font-family: "Georgia";
+				font-size: 20px;
+				color: black;
+				text-shadow: 2px 2px 1px white;
+				margin-top: 8%;
+				line-height: 30px;
+}
+/* --------------------------------------------------------------------- */
+.texto3{
+				width: 27%;
+				height: auto;
+				margin-left: 55%;
+				margin-top: -25%;
+}
+/* --------------------------------------------------------------------- */
+.texto3 h1{
+				font-family:"MONSTER OF FANTASY";
+				font-size: 40px;
+				color: red;
+}
+/* --------------------------------------------------------------------- */
+.box1, .box2{
+				display: flex;
+				flex-wrap: nowrap;
+				width: 95%;
+				height: auto;
+				margin: auto;
+}
+/* --------------------------------------------------------------------- */
+.galeria img{
+				width: 100%;
+				height: auto;
+}
+/* --------------------------------------------------------------------- */
+.galeria2 img{
+				width: 100%;
+				height: auto;
+}
+/* --------------------------------------------------------------------- */
+.box2{
+				margin-bottom: 3%;
+}
+/* --------------------------------------------------------------------- */
+.titulo h1{
+				font-family: "MONSTER OF FANTASY";
+				font-size: 38px;
+				color: red;
+				text-align: center;
+}
+/* --------------------------------------------------------------------- */
+.menu1{
+	            display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 3.5%;
+                margin-top: 3.5%;
+}
+/* --------------------------------------------------------------------- */
+.menu2{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 3.5%;
+                margin-top: 3.5%;
+}
+/* --------------------------------------------------------------------- */
+.menu2 h2{
+				margin-top: 3.5%;
+				font-family: "MONSTER OF FANTASY";
+				font-size: 26px;
+				color: red;
+				text-shadow: 1px 1px 1px gray;
+}
+/* --------------------------------------------------------------------- */
+.card {
+                position: relative;
+                width: 275px;
+                height: 350px;
+                margin: 20px;
+}
+/* --------------------------------------------------------------------- */
+.card .face {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+                border-radius: 10px;
+                overflow: hidden;
+                transition: .5s;
+}
+/* --------------------------------------------------------------------- */
+.card .front {
+                transform: perspective(600px) rotateY(0deg);
+                box-shadow: 0 5px 10px #000;
+}
+/* --------------------------------------------------------------------- */
+.card .front img {
+                position: absolute;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+}
+/* --------------------------------------------------------------------- */
+.card .front h3 {
+				font-family:"MONSTER OF FANTASY";
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 45px;
+                line-height: 45px;
+                color: #fff;
+                background: rgba(0,0,0,.4);
+                text-align: center;
+                margin-bottom: 2%;
+}
+/* --------------------------------------------------------------------- */
+.card .back {
+                transform: perspective(600px) rotateY(180deg);
+                background-color: #9d0000;
+                padding: 15px;
+                color: #f3f3f3;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: center;
+                box-shadow: 0 5px 10px #000;
+}
+/* --------------------------------------------------------------------- */
+.card .back h3 {
+                font-size: 30px;
+                margin-top: 20px;
+                letter-spacing: 2px;
+}
+/* --------------------------------------------------------------------- */
+.card .back p {
+                font-size: 21px;
+                margin: auto;
+                letter-spacing: 1px;
+} 
+/* --------------------------------------------------------------------- */
+.card:hover .front {
+                transform: perspective(600px) rotateY(180deg);
+}
+/* --------------------------------------------------------------------- */
+.card:hover .back {
+                transform: perspective(600px) rotateY(360deg);
+}
+/* --------------------------------------------------------------------- */
+iframe{
+				display: flex;
+				flex-direction: column;
+				width: 55%;
+				height: 400px;
+				margin: auto;
+}
+/* --------------------------------------------------------------------- */
+.texto1{
+				display: flex;	
+				width: 90%;
+				height: auto;
+				margin: auto;
+				margin-top: 3%;
+}
+/* --------------------------------------------------------------------- */
+.texto1 h2{
+				margin: auto;
+				font-size: 26px;
+}
+/* --------------------------------------------------------------------- */
+.lista{
+				width: 100%;
+				height: auto;
+				margin: auto;
+				margin-left: 2%;
+}	
+/* --------------------------------------------------------------------- */	
+.lista li{
+				font-size: 20px;
+}
+/* -------------------------------------Responsive Web Design.-------------------------------- */
+@media screen and (max-width:800px){
+        body, header, embed, footer{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+				margin: auto;
+        }
+		.icono{
+				margin: auto;
+		}
+		.icono img{
+				width: 100%;
+				height: auto;
+		}
+		nav{
+				display: flex;
+				flex-direction: column;
+				margin: auto;
+				margin-top: -13%;
+				margin-bottom: 6%;
+		}
+		a.a{
+				letter-spacing: 2px;
+				margin-bottom: -8%;
+		}
+		.informacion p{
+				margin-left: 1%;
+				margin-right: 1%;
+				font-size: 22px;
+				line-height: 36px;
+		}
+		.info1, .info2, .info3{
+				width: 98%;
+				height: auto;
+				text-align: center;
+				font-size: 22px;
+				line-height: 32px;
+				margin-top: 5%;
+		}
+		.info3{
+				width: 99%;
+		}
+		.info2 p{
+				text-align: center;
+		}
+		.info2 img{
+				width: 70%;
+				height: auto;
+		}
+		.box{
+				display: flex;
+				flex-direction: column;
+				margin: auto;
+				width: 100%	;
+		}
+		.target{
+				margin-bottom: 12%;
+		}
+		.frase h1{
+				margin-bottom: 12%;
+				text-align: center;
+		}
+		.menu1, .menu2{
+				margin: auto;
+				padding: 0;
+				width: 100%;
+		}
+		.menu2{
+				margin-bottom: 12%;
+		}
+		.card .back{
+				width: 230px;
+				height: 350px;
+		}
+		iframe{
+				width: 100%;
+				height: auto;
+				margin: auto;
+		}
+		.lista{
+				width: 95%;
+		}
+		.box1, .box2{
+				display: flex;
+				flex-direction: column;
+		}
+		.limonagrio{
+				width: 100%;
+				height: auto;
+				margin: auto;
+		}
+		.texto3{
+				width: 80%;
+				height: auto;
+				margin: auto;
+		}
+		.info{
+				width: 95%;
+				height: auto;
+				margin: auto;
+				margin-right: 20px;
+		}
+		.galeria2, .galeria1{
+				margin-bottom: 1%;
+				margin-top: 1%;
+		}
+}
